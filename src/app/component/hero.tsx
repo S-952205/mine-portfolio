@@ -22,7 +22,7 @@ const Hero = () => {
                     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
 
                         <h1 className="title-font sm:text-4xl font-mono text-3xl mb-4 font-medium text-white">
-                             I' m
+                             I&apos;m
                             <br className="hidden lg:inline-block" />
                             <Typewriter
                                 options={{
@@ -37,7 +37,7 @@ const Hero = () => {
                         </h1>
                          <div className='w-[290px] h-[1px] bg-white mb-2'></div>
                         <p className="mb-8 leading-relaxed text-[1.75rem] text-white">
-                            As a front-end development enthusiast, I’m building skills to create interactive and user-friendly web designs. I thrive on learning new tools and techniques, from responsive layouts to dynamic web applications, and I’m eager to bring ideas to life on the web.
+                            As a front-end development enthusiast, I m building skills to create interactive and user-friendly web designs. I thrive on learning new tools and techniques, from responsive layouts to dynamic web applications, and I’m eager to bring ideas to life on the web.
                         </p>
                           
                         <Link href={"#Contact"}> 
