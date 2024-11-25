@@ -72,6 +72,33 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <div className="lg:w-1/3 sm:w-1/2 p-4">
+        <div className="flex relative">
+          <Image
+            alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src={require("../../../public/mine/portfolio.jpg")}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-[#A64D79] bg-[#1A1A1D] opacity-0 hover:opacity-100">
+            <h1 className="tracking-widest text-sm title-font font-[600] text-blue-300 mb-1">
+             My Portfolio
+            </h1>
+            <h2 className="title-font text-lg font-medium text-white mb-3">
+            Showcasing My Work
+            </h2>
+            <p className="leading-relaxed line-clamp-2">
+            I created a portfolio website to display my projects and skills. It highlights my journey as a web developer and provides a simple, organized way to explore my work. This project helped me practice HTML, CSS, and responsive design.
+            </p>
+            <Link
+             target='_blank'
+             href={"https://mine-portfolio-new.vercel.app/"}>
+            <p className="font-[600] text-blue-300 hover:underline leading-relaxed line-clamp-2">
+             View Project
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
       
 
     </div>
